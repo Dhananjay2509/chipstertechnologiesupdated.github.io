@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    
+}
+.header1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+.header2{
+    padding-left:15px ;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.187);
+}
+
+.header2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+.card{
+    height: 8rem;
+    border-radius: 15px;
+}
+
+
+
+/* ------------------------------------------------------------CARD2-------------------------------------------- */
+
+@media screen and (max-width:500px){
+
+    .card{
+        height: 18rem;
+        border-radius: 15px;
+    
+    }
+    
+    .card-container{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        gap: 5px;
+    }
+    .header1{
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        text-align: center;
+        
+    }
+    .header1 h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.611);
+        font-size: 25px;
+    }
+    .header2{
+        padding-left:10px ;
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.187);
+        text-align: center;
+    }
+    
+    .header2 h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.611);
+        font-size: 25px;
+    }
+    
+
+}
+
+@media screen and (min-width:541px) and (max-width:1500px) {
+    .card{
+        height: 50px;
+        border-radius: 15px;
+    
+    }
+}
+
+
+/* ---------------------------------------------------------------- */
+
+#card-container{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    margin-bottom: 5px;
+    border-color: black;
+  }
